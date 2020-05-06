@@ -1,0 +1,69 @@
+/* GENERAL */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+ padding-top: 65px;
+ font-size: 13px;
+ font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.ms_inline {
+  display: inline-block;
+}
+
+/* HEADER */
+/* navbar */
+.ms_navbar {
+  line-height: 65px;
+  color: black;
+  background-color: white;
+}
+
+.ms_navbar ul {
+  line-height: 65px;
+  width: 100%;
+}
+
+.ms_navbar a {
+  color: black;
+  font-weight: 400;
+}
+
+.ms_navbar li {
+  display: inline-block;
+  margin-right: 4%;
+}
+
+.ms_navbar ul li:last-child {
+  margin-right: 0;
+}
+
+.ms_navbar .ms_button {
+  color: #0069ff;
+  font-size: 1.15em;
+    border: 0.5px solid #0069ff;
+}
+
+.ms_burger-menu {
+  line-height: 65px;
+}
+
+.ms_logo img {
+  height: 32px;
+}
+
+.ms_logo {
+  line-height: 65px;
+}
