@@ -23,6 +23,11 @@ li {
   list-style-type: none;
 }
 
+.ms_wrapper60 {
+  width: 60%;
+  margin: auto;
+}
+
 .ms_inline {
   display: inline-block;
 }
@@ -50,8 +55,11 @@ li {
   color: lightgrey;
 }
 
+.ms_grey {
+  color: grey;
+}
+
 /* HEADER */
-/* navbar */
 .ms_navbar {
   line-height: 60px;
   color: black;
@@ -163,16 +171,38 @@ form p {
   background-color: #f3f5f9;
 }
 
+.ms_partners .ms_privacy {
+  margin-top: 3%;
+}
+
 .ms_partners h3 {
   font-size: 1em;
   margin-top: 0;
   margin-bottom: 25px;
-  color: grey;
 }
 
-.ms_images {
+.ms_partners ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ms_partners li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+.ms_images img {
+  vertical-align: middle;
   height: 70px;
-  margin-bottom: 25px; 
+}
+
+.ms_images li:last-child img {
+  height: 35px;
+}
+
+/* .ms_images {
+  height: 70px;
+  margin-bottom: 25px;
 }
 
 .ms_images img {
@@ -184,4 +214,33 @@ form p {
   height: 50%;
   margin: 0 auto;
   margin-right: none;
+} */
+
+/* MAIN */
+.ms_top-main h2 {
+  font-weight: 700;
 }
+
+.ms_top-main h3 {
+  font-weight: 400;
+  line-height: 150%;
+}
+
+
+/* @media screen and (max-width: 717px) {
+  .ms_partners .ms_privacy {
+    margin-top: 15%;
+  }
+}
+
+@media screen and (max-width: 578px) {
+  .ms_partners .ms_privacy {
+    margin-top: 20%;
+  }
+}
+
+@media screen and (max-width: 405px) {
+  .ms_partners .ms_privacy {
+    margin-top: 45%;
+  }
+} */
