@@ -1,9 +1,11 @@
-/* GENERAL */
+/******************* GENERALS *****************/
+/* reset */
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
 }
+/* reset */
 
 body {
  padding-top: 60px;
@@ -66,8 +68,10 @@ background-color: #f3f5f9;
 .ms_grey {
   color: grey;
 }
+/******************* GENERALS *****************/
 
-/* HEADER */
+/************* HEADER *************/
+/* navbar */
 .ms_navbar {
   line-height: 60px;
   color: black;
@@ -98,7 +102,9 @@ background-color: #f3f5f9;
   font-size: 1.15em;
   border: 0.5px solid #0069ff;
 }
+/* navbar */
 
+/* burger menu */
 .ms_burger-menu {
   line-height: 60px;
   font-size: 1.6em;
@@ -107,7 +113,9 @@ background-color: #f3f5f9;
 .ms_burger-menu a {
   color: #0069ff;
 }
+/* burger menu */
 
+/* logo navbar*/
 .ms_logo img {
   height: 32px;
 }
@@ -115,7 +123,9 @@ background-color: #f3f5f9;
 .ms_logo {
   line-height: 60px;
 }
+/* logo navbar */
 
+/* sign in button */
 .ms_box .btn.btn-default:first-of-type {
   background-color: #0069ff;
 }
@@ -123,13 +133,31 @@ background-color: #f3f5f9;
 .ms_box .btn.btn-default , .ms_box span {
   display: block;
 }
+/* sign in button */
 
+/* jumbotron */
 .ms_jumbotron {
   background-image: url('../img/bg-home-1-d54581d7.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
+.ms_jumbotron h1 {
+  font-weight: 700;
+  font-size: 3em;
+}
+
+.ms_jumbotron h2 {
+  margin-top: 10px;
+}
+
+.ms_jumbotron h3 {
+  font-weight: 500;
+  font-size: 1.5em;
+}
+/* jumbotron */
+
+/* form */
 input {
   width: 100%;
   border: 0.3px solid lightgrey;
@@ -143,7 +171,7 @@ form .ms_privacy {
   font-weight: 400;
 }
 
-form .ms_privacy a {
+form .ms_privacy  a {
   text-decoration: underline;
 }
 
@@ -160,23 +188,11 @@ form p {
   font-weight: 500;
   margin-bottom: 0;
 }
+/* form */
 
-.ms_jumbotron h1 {
-  font-weight: 700;
-  font-size: 3em;
-}
-
-.ms_jumbotron h2 {
-  margin-top: 10px;
-}
-
-.ms_jumbotron h3 {
-  font-weight: 500;
-  font-size: 1.5em;
-}
-
+/* sponsor partners */
 .ms_partners .ms_privacy {
-  margin-top: 3%;
+  margin-top: 7%;
 }
 
 .ms_partners h3 {
@@ -203,11 +219,15 @@ form p {
 .ms_images li:last-child img {
   height: 35px;
 }
+/* sponsor partners */
+/*************** HEADER ***************/
 
-/* MAIN */
+/************* MAIN ***************/
+/* top main */
 .ms_top-main h3 {
   font-weight: 400;
   line-height: 150%;
+  margin-bottom: 7%;
 }
 
 .ms_top-main a {
@@ -239,6 +259,12 @@ form p {
   padding-bottom: 0;
 }
 
+.ms_top-main .ms_wrapper75 ul {
+  margin-bottom: 15%;
+}
+/* top main */
+
+/* carosello */
 .ms_carosello h3 {
  margin-bottom: 5%;
  font-weight: 400;
@@ -262,7 +288,9 @@ form p {
 .ms_chevron a {
   text-decoration: none;
 }
+/* carosello */
 
+/* features */
 .ms_features span {
   font-weight: 500;
 }
@@ -276,9 +304,11 @@ form p {
 .ms_features p {
   margin-top: 3%;
 }
+/* features */
 
+/* regioni */
 .ms_regions , .ms_top-footer {
-  background-color: blue;
+  background-color: #0069ff;
   color: lightgrey;
 }
 
@@ -315,7 +345,9 @@ form p {
 .ms_regions table tr:last-child {
   border-bottom: none;
 }
+/* regioni */
 
+/* secondo carosello */
 .ms_secondo-carosello p {
   font-weight: 500;
 }
@@ -350,7 +382,11 @@ form p {
   vertical-align: middle;
   padding-top: 10%;
 }
+/* secondo carosello */
+/*************** MAIN *****************/
 
+/************* FOOTER ***************/
+/* top footer */
 .ms_top-footer h2 {
   color: white;
   padding-bottom: 2%;
@@ -361,13 +397,11 @@ form p {
   font-size: 1.2em;
   color: #0069ff;
 }
+/* top footer */
 
+/* bottom footer */
 .ms_bottom-footer {
   background-color: #010e28;
-}
-
-.ms_bottom-footer span {
-  color: white;
 }
 
 .ms_bottom-footer img {
@@ -399,8 +433,10 @@ form p {
 .ms_bottom-footer li {
   font-size: 0.95em;
 }
+/* bottom footer */
+/************* FOOTER ***************/
 
-/* MEDIA QUERY */
+/************** MEDIA QUERY ***************/
 @media screen and (max-width: 768px) {
   .ms_bottom-footer [class*=col-] {
     margin-bottom: 2%;
